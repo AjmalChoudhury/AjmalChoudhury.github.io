@@ -123,7 +123,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -182,7 +182,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #313f47;
+		color: #ffffff;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
 	}
@@ -260,7 +260,7 @@
 			}
 
 	label {
-		color: #313f47;
+		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
 		margin: 0 0 0.75em 0;
@@ -365,7 +365,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #414f57;
+			color: #ffffff;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -388,7 +388,7 @@
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				border-radius: 4px;
-				border: solid 1px #c8cccf;
+				border: solid 1px #ffffff;
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -622,7 +622,7 @@
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #c8cccf;
-		color: #414f57 !important;
+		color: #ffffff !important;
 		cursor: pointer;
 		text-align: center;
 		text-decoration: none;
@@ -701,7 +701,7 @@
 	#main {
 		position: relative;
 		max-width: 100%;
-		min-width: 27em;
+		min-width: 50em;
 		padding: 3em 3em 3em 3em ;
 		background: rgba(0,0,0,0.25);
 		border-radius: 20px;
